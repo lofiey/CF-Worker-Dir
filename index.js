@@ -89,6 +89,32 @@ const config = {
           desc:"程序员集散地"
         },
       ]
+    },
+    {
+      name:"娱乐",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://www.youtube.com/",
+          name:"Youtube",
+          desc:"天天都爱看"
+        },
+        {
+          url:"https://www.twitter.com/",
+          name:"Twitter",
+          desc:"新闻很好看"
+        },
+        {
+          url:"https://www.facebook.com/",
+          name:"Facebook",
+          desc:"每个人都有的社交"
+        },
+        {
+          url:"https://www.instagram.com/",
+          name:"instagram",
+          desc:"每天都分享生活"
+        },
+      ]
     }
   ]
 }
@@ -182,10 +208,10 @@ function renderHTML(index,seller) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
-      <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js"></script>
+      <link href="https://file.3test.com/cloudflare/CF-Worker-Dir/semantic.min.css" rel="stylesheet">
+      <link href="https://file.3test.com/cloudflare/CF-Worker-Dir/style.css" rel="stylesheet">
+      <script src="https://file.3test.com/cloudflare/CF-Worker-Dir/jquery.min.js"></script>
+      <script src="https://file.3test.com/cloudflare/CF-Worker-Dir/semantic.min.js"></script>
   </head>
   <body>
     ${index}
