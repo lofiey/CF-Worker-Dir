@@ -4,27 +4,7 @@
 const config = {
   title: "inspht导航",                 //write your website title
   subtitle: "Cloudflare Workers Dir", //write your website subtitle
-  logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
-  hitokoto: true,                     //use hitokoto or not
-  search:true,                        //enable search function
-  search_engine:[                     //choose search engine which you use
-    {
-      name:"百 度",
-      template:"https://www.baidu.com/s?wd=$s"
-    },
-    {
-      name:"谷 歌",
-      template:"https://www.google.com/search?q=$s"
-    },
-    {
-      name:"必 应",
-      template:"https://www.bing.com/search?q=$s"
-    },
-    {
-      name:"搜 狗",
-      template:"https://www.sogou.com/web?query=$s"
-    }
-  ],
+
   selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
     domain:"example.com",
