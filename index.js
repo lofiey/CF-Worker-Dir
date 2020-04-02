@@ -2,7 +2,7 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "自定义导航",                 //write your website title
+  title: "inspht导航",                 //write your website title
   subtitle: "Cloudflare Workers Dir", //write your website subtitle
   logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                     //use hitokoto or not
@@ -28,12 +28,12 @@ const config = {
   selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
     domain:"example.com",
-    price:500,                        //domain price
+    price:5000,                        //domain price
     mon_unit:"yen sign",              //monetary unit 
     contact:[                         //how to contact you
       {
         type:"envelope",               //contact type ("weixin","qq","telegram plane","envelope" or "phone")
-        content:"info@example.com"
+        content:"lofiey@chcst.com"
       }
     ]                        
   },
